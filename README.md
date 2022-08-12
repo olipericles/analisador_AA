@@ -6,7 +6,7 @@ Compreendendo que uma pilha AA com alta resistência interna apresenta uma queda
 
 Ao identificar a pilha inserida no case, é realizada a medição da tensão da pilha através de um divisor de tensão de alta impedância (para que a resistência interna não interfira). Se for verificado que a pilha está carregada, tensão acima de 1V, um gatilho aciona um relé conectando uma carga de 1,2ohm (forçando a drenagem de uma alta corrente) e uma nova medição é realizada. É importante salientar que o relé fica ativo por apenas 100ms, para não danificar a pilha.
 
-!["Circuito"](/circuito.jpg)
+!["Circuito"](/circuito.JPG)
 
 Considerando a primeira medição como circuito aberto (Voc) e a segunda medição como circuito com carga (Vload), é possível estimar a resistência interna com a seguinte fórmula: Rin = 1,2 * (Voc - Vload) / Vload. 
 
